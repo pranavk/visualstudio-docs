@@ -79,7 +79,7 @@ void ShowSectionContribs(IDiaSession *pSession)
     IDiaEnumSectionContribs* pEnumSectionContribs;
 
     pEnumSectionContribs = GetEnumSectionContribs(pSession);
-    if (pSectionContrib != NULL)
+    if (pEnumSectionContribs != NULL)
     {
         IDiaSectionContrib* pSectionContrib;
         ULONG celt = 0;
